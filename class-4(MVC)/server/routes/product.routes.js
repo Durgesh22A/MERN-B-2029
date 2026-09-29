@@ -3,7 +3,7 @@ const ProductModel = require('../models/products.model.js')
 const { createProduct, getAllProducts, updateProduct, deleteProduct } = require('../controllers/product.controllers.js')
 
 
-const productRoutes = express.Router() // This helps you initilaie routing
+const productRoutes = express.Router() // This helps you initialise routing
 
 
 productRoutes.get('/getAll', getAllProducts)
